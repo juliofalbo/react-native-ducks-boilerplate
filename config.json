@@ -1,0 +1,12 @@
+{
+    "api": {
+      "url": "https://alpha.api.mutual.club/api/",
+      "timeout": 30000
+    },
+    "segmentAndroidWriteKey": "",
+    "segmentIOSWriteKey": "",
+    "amplitudeApiKey": "",
+    "environment": "dev",
+    "version": "1.7.13"
+  }
+  
