@@ -21,7 +21,7 @@ Inicia o app no Android.
 ### master
 A branch master é a branch de produção.
 
-## alpha
+### alpha
 A branch alpha é a branch de homologação.
 
 ## feature branches
@@ -30,7 +30,7 @@ Todas as funcionalidades serão desenvolvidas utilizando a estratégia de featur
 Ex: Ao criar a feature de login, será criado uma nova branch utilizando o código abaixo:
 `git checkout -b feat/login`
 
-### Regras
+#### Regras
 Onde o prefixo *feat/* é obrigatório e o sufixo será o nome do feature que será trabalhada.
 
 ## fix branches
@@ -39,5 +39,5 @@ Todos os fix's terão sua própria branch visando uma melhor organização dos p
 Ex: Ao resolver um bug no login, será criado uma nova branch utilizando o código abaixo:
 `git checkout -b fix/login`
 
-### Regras
+#### Regras
 Onde o prefixo *fix/* é obrigatório e o sufixo será o da feature que receberá o fix.
