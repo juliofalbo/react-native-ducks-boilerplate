@@ -1,1 +1,2 @@
-export { registerReducers as register } from './register'
+export { registerReducers as register } from './register';
+export { accountReducers as account } from './account';
