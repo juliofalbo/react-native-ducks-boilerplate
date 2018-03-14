@@ -64,8 +64,8 @@ A pasta deverá conter o nome da sua View e dentro dela serão necessários 3 ar
 ### index.js
 É o arquivo que exportará sua view como default, com o objetivo de facilitar a importação da mesma.
 
-### SuaViewContainer.js
-É o arquivo responsável por realizar a ponte entre os atributos e métodos que se encontram sob responsabilidade do **redux** para sua view.
-
 ### SuaView.js
 É onde será codificado a aparência da View.
+
+### SuaViewContainer.js
+É o arquivo responsável por realizar a ponte entre os atributos e métodos que se encontram sob responsabilidade do **redux** para sua view.
