@@ -1,6 +1,6 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
-import Login from '../components/Login';
+import Login from '../views/Login';
 
 const RootStackNavigator = StackNavigator({
     Login: {
