@@ -1,5 +1,6 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
+import { Platform, StatusBar } from 'react-native';
 import Login from '../views/Login';
 
 const RootStackNavigator = StackNavigator({
@@ -8,7 +9,10 @@ const RootStackNavigator = StackNavigator({
     }
 }, {
         initialRouteName: 'Login',
-        navigationOptions:{
+        cardStyle: {
+            paddingTop: Platform.OS === 'ios' ? 0 : StatusBar.currentHeight
+        },
+        navigationOptions: {
             header: null
         }
     })
