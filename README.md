@@ -41,3 +41,37 @@ Ex: Ao resolver um bug no login, será criado uma nova branch utilizando o códi
 
 #### Regras
 Onde o prefixo *fix/* é obrigatório e o sufixo será o da feature que receberá o fix.
+
+___
+
+# Criação de Views
+
+Todas as Views serão criadas na pasta **views**, que se encontra dentro da pasta **src**.
+A pasta deverá conter o nome da sua View e dentro dela serão necessários 3 arquivos.
+
+#### Exemplo
+
+
+```
+---src
+----views
+-------SuaView
+---------index.js
+---------SuaView.js
+---------SuaViewContainer.js
+```
+
+##index.js
+
+##SuaView.js
+
+##SuaViewContainer.js
+
+### index.js
+É o arquivo que exportará sua view como default, com o objetivo de facilitar a importação da mesma.
+
+### SuaViewContainer.js
+É o arquivo responsável por realizar a ponte entre os atributos e métodos que se encontram sob responsabilidade do **redux** para sua view.
+
+### SuaView.js
+É onde será codificado a aparência da View.
