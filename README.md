@@ -53,19 +53,13 @@ A pasta deverá conter o nome da sua View e dentro dela serão necessários 3 ar
 
 
 ```
----src
-----views
--------SuaView
----------index.js
----------SuaView.js
----------SuaViewContainer.js
+- src
+---| views
+-----| SuaView
+-------| index.js
+-------| SuaView.js
+-------| SuaViewContainer.js
 ```
-
-##index.js
-
-##SuaView.js
-
-##SuaViewContainer.js
 
 ### index.js
 É o arquivo que exportará sua view como default, com o objetivo de facilitar a importação da mesma.
