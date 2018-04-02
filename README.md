@@ -1,3 +1,9 @@
+#Definição
+
+Criado com o objetivo de ser um facilitador para iniciar um projeto com React Native + Redux utilizando o padrão de estrutura Ducks com algumas customizações, visando a escalabilidade do app.
+
+###Obs:
+
 Projeto inciado com [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 ## Scripts Disponíveis
