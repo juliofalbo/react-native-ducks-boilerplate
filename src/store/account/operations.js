@@ -31,7 +31,7 @@ export const login = () =>
       if (err.response && err.response.status === 401) {
         dispatch(accountActions.error('CPF ou sennha inválida'));
       } else {
-        dispatch(accountActions.error('Não foi possível conectar-se ao TAXI.RIO, tente novamente mais tarde'));
+        dispatch(accountActions.error('Não foi possível conectar-se ao App, tente novamente mais tarde'));
       }
     }
   }
