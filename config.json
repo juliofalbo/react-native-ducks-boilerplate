@@ -1,6 +1,6 @@
 {
     "api": {
-      "url": "https://alpha.api.mutual.club/api/",
+      "url": "https://seudominio.com/api/",
       "timeout": 30000
     },
     "segmentAndroidWriteKey": "",
